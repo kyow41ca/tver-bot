@@ -1,0 +1,16 @@
+{
+  "name": "tver-bot",
+  "version": "1.0.0",
+  "description": "TVer SIDとm3u8の取得サーバー",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
